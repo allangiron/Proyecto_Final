@@ -1,0 +1,9 @@
+
+
+Date:2021-08-09 18:06:35,578
+Thread:[1]
+Level:ERROR
+Logger:Syncfusion.TemplateWizard.Base.IWizardImplementation                         [(null)]
+Message:System.Runtime.InteropServices.COMException (0x8004D745): Ya existe una referencia al componente 'Syncfusion.Shared.Base' en el proyecto.
+   en VSLangProj.References.Add(String bstrPath)
+   en Syncfusion.TemplateWizard.Base.IWizardImplementation.AddReferenceToProject(Version LatestSyncfusionVersion, String refDetails, String selVersion, String frameWorkver, VSProject vsProj, ServiceProvider _nugetService, Boolean isCallFromTestingAutomation, String AssemblyFromLocation, Boolean isAddSyncfusionItemSelected, Boolean isItemTemplateProject, String _destinationPath, Project _project, TargetPlatform targetPlatform)
